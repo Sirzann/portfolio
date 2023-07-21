@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+.nav ul{
+    background-color: silver;
+    text-align: center;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.nav li{
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 2px solid rgb(231, 8, 8);
+}
+
+.home a{
+    color: red;
+    font-size: large;
+}
+.home a:hover{
+    text-decoration: none;
+}
+.about a{
+    color: green;
+    font-size: large;
+}
+.about a:hover{
+    text-decoration: none;
+}
+.portfolio a{
+    color: red;
+    font-size: large;
+}
+.portfolio a:hover{
+    text-decoration: none;
+}
+.contact a{
+    font-size: large;
+}
+
+
+@media (min-width: 600px) {
+    .nav li{
+        width: 120px;
+    }
+}
+img{
+    height: 10vw;
+}
+.container  .jumbotron{
+    margin: 10px;
+    text-align: center;
+    background-color:rgb(95, 196, 112); ;
+    color: azure;
+    text-decoration: underline;
+    background-color: darkseagreen;
+
+}
+#photo1{
+    border-radius: 90px;
+}
+.ab{
+    font-size: xx-large;
+    color: rgb(230, 195, 131);
+    }
+
+.link1{
+    text-align: right;
+    font-size: xx-large;
+    color: aqua;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
